@@ -81,9 +81,7 @@ Aplicatia este dezvoltata folosind o arhitectura bazata pe *microservicii* si or
 
 ## Repository-uri
 
-- [Auth Service](https://github.com/littlesteps-org/auth-service)
-- [Business Logic Service](https://github.com/littlesteps-org/business-logic-service)
-- [Database Interaction Service](https://github.com/littlesteps-org/db-interaction-service)
-- [Frontend](https://github.com/littlesteps-org/frontend)
-- [Infrastructure & Deployment](https://github.com/littlesteps-org/infrastructure)
-
+- [Auth Service](https://github.com/IDP-Project-Kindergarten-Companion/auth-service)
+- [Gateway Config](https://github.com/IDP-Project-Kindergarten-Companion/gateway-config)
+- [Infrastructure](https://github.com/IDP-Project-Kindergarten-Companion/infrastructure)
+- [Deployment](https://github.com/IDP-Project-Kindergarten-Companion/deployment)
