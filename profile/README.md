@@ -29,7 +29,7 @@ Parintii pot vizualiza progresul copilului printr-o interfata prietenoasa si int
 
 Aplicatia este dezvoltata folosind o arhitectura bazata pe *microservicii* si orchestrata cu *Kubernetes. Comunicarea intre componente este realizata prin HTTP, rutele fiind gestionate de **Kong API Gateway*.
 
-![Arhitectura Aplicatiei](assets/arhitecture.png)
+![Arhitectura Aplicatiei](../assets/arhitecture.png)
 
 ### Microservicii:
 
