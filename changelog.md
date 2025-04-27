@@ -24,9 +24,7 @@
     -   First version of activity log implementation. (Alexandra Burnichi)
     -   Created the basic Flask application to handle various child activity logging requests. (Alexandra Burnichi)
     -   Defined data formats for Meals, Naps, Drawings and Behavioral Feedback. (Alexandra Burnichi)
-    -   Implemented logic for input validation. (Alexandra Burnichi)
-    -   Implemented logic for sending data to a database interaction service. (Alexandra Burnichi)
-    -   Created a requirements.txt file with Flask and requests dependencies. (Alexandra Burnichi)
+    -   Implemented logic for input validation and sending data to a database interaction service. (Alexandra Burnichi)
     -   Created Dockerfile for containerization. (exposing port 5003) (Alexandra Burnichi)
     -   Created a separate docker-compose.yml file within the service directory for isolated testing. (Alexandra Burnichi)
     -   Added a basic readme. (Marius Preda) 
@@ -36,7 +34,6 @@
     -   Defined the child profiles initial structure: First Name, Last Name, Allergies, Date of Birth. (Alexandra Burnichi)
     -   Implemented a /children endpoint to receive profile data. (Alexandra Burnichi)
     -   Added logic for sending data to a database interaction service. (Alexandra Burnichi)
-    -   Created a requirements.txt file with Flask and requests dependencies. (Alexandra Burnichi)
     -   Created Dockerfile for containerization. (exposing port 5000) (Alexandra Burnichi)
 
 ### Changed
