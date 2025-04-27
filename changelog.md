@@ -25,10 +25,23 @@ and this project adheres to Semantic Versioning.
     -   Added proper testing and route fixes (Marius Preda)
 -   **Activity Log Service:**
     -   First version of activity log implementation. (Alexandra Burnichi)
-    -   Added a basic readme. (Marius Preda)
+    -   Created the basic Flask application to handle various child activity logging requests. (Alexandra Burnichi)
+    -   Defined data formats for Meals, Naps, Drawings and Behavioral Feedback. (Alexandra Burnichi)
+    -   Implemented logic for input validation. (Alexandra Burnichi)
+    -   Implemented logic for sending data to a database interaction service. (Alexandra Burnichi)
+    -   Created a requirements.txt file with Flask and requests dependencies. (Alexandra Burnichi)
+    -   Created Dockerfile for containerization. (exposing port 5003) (Alexandra Burnichi)
+    -   Created a separate docker-compose.yml file within the service directory for isolated testing. (Alexandra Burnichi)
+    -   Added a basic readme. (Marius Preda) 
 -   **Child Profile Service:**
     -   First version of child profile implementation. (Alexandra Burnichi)
-    -    Added first version of the child profile implementation (Alexandra Burnichi)
+    -   Created the basic Flask application to handle child profile creation requests. (Alexandra Burnichi)
+    -   Defined the child profiles initial structure: First Name, Last Name, Allergies, Date of Birth. (Alexandra Burnichi)
+    -   Implemented a /children endpoint to receive profile data. (Alexandra Burnichi)
+    -   Added logic for sending data to a database interaction service. (Alexandra Burnichi)
+    -   Created a requirements.txt file with Flask and requests dependencies. (Alexandra Burnichi)
+    -   Created Dockerfile for containerization. (exposing port 5000) (Alexandra Burnichi)
+
 ### Changed
 -   **Auth Service:**
     -   Minor readme change (Marius Preda)
