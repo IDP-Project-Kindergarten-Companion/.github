@@ -1,15 +1,12 @@
-Okay, I've updated the changelog to include more detail and the team members' contributions.# Changelog
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to Semantic Versioning.
+# Changelog
 
 ## [Unreleased]
 
 ## [1.0.0] - 2025-04-25
 ### Added
 -   **General**
-    -   Basic services source code (Marius Preda)
+    -   Basic services source code (Marius Preda + Alexandra Burnichi)
+    -   Containerization for all services (Marius Preda + Alexandra Burnichi)
     -   Unit tests for the most used services (auth + db interact) (Marius Preda)
     -   DB visualisation (Marius Preda)
 -   **Auth Service:**
@@ -44,8 +41,7 @@ and this project adheres to Semantic Versioning.
 
 ### Changed
 -   **Auth Service:**
-    -   Minor readme change (Marius Preda)
-    -   Readme improvement (Marius Preda)
+    -   Readmes improvements (Marius Preda)
     -   Comment changes (Marius Preda)
 
 ### Removed
@@ -54,8 +50,8 @@ and this project adheres to Semantic Versioning.
 
 ## [0.9.0] - 2025-04-20
 ### Added
--   Initial commit for several services:
+-   First version of several services:
     -   Auth Service: Basic authentication implementation. (Marius Preda)
-    -   DB Interact Service: Initial commit. (Marius Preda)
+    -   DB Interact Service: Few interaction functionalities. (Marius Preda)
     -   Activity Log Service: Initial commit. (Alexandra Burnichi)
     -   Child Profile Service: Initial commit. (Alexandra Burnichi)
